@@ -12,4 +12,4 @@ function toggleMode() {
  }
 
      // Set initial mode (you can choose light mode as defauslt)
-   document.getElementById('modeStylesheet').href = '/css/darkmain.css';
+   document.getElementById('modeStylesheet').href ='/css/darkmain.css';
