@@ -4,7 +4,7 @@ function toggleMode() {
     var isLightkMode = currentStylesheet.href.includes('/css/lightmain.css');
 
     // Toggle between dark mode and light mode
-    if (isDarkMode) {
+    if (currentStylesheet.href = '/css/lightmain.css') {
         currentStylesheet.href = '/css/darkmain.css';
      } else {
          currentStylesheet.href = '/css/lightmain.css';

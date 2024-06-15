@@ -59,9 +59,8 @@
 
     <div class="collapse navbar-collapse" id="main-navigation">
     <a class="nav-link " href="/">Home</a>
-    <input type="checkbox" class="theme-checkbox">
-   <!-- <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()"> 
-   Begin Menu -->
+    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()">
+
       <ul class="navbar-nav ms-auto">
         {{ $currentUrl := .RelPermalink }}
         {{ range $settingsNavigation.Params.link }}
@@ -70,8 +69,7 @@
         </li>
         {{ end }}
       </ul>
-      <!-- End Menu -->
     </div>
   </div>
- <!-- Styles  <script src="/js/darkmodeswitch.js"></script>-->
+ <script src="/js/darkmodeswitch.js"></script>
 </nav>
